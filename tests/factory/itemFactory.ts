@@ -9,11 +9,3 @@ export function customItem (){
     }
 }
 
-export function invalidItem(){
-    return{
-        title: faker.animal.cetacean(),
-        url: faker.image.animals(),
-        description: faker.lorem.lines(),
-        amount: 666
-    }
-}
